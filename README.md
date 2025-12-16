@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="https://berty.tech/img/berty.svg" alt="Berty" title="Berty" height="300px" />
+  <img src="https://berty.tech/img/berty.svg" alt="Berty" title="TrexChat" height="300px" />
 </h1>
 
-<h3 align="center"> Berty is an open, secure, offline-first, peer-to-peer and zero trust messaging app </h3>
+<h3 align="center"> TrexChat is an open, secure, offline-first, peer-to-peer messaging app </h3>
 
 <p align="center">
     <a href="https://berty.tech"><img alt="berty.tech" src="https://img.shields.io/badge/berty.tech-2845a7?logo=internet-explorer&style=flat" /></a>
@@ -50,9 +50,9 @@ The two main command line utilities are:
 
 ## Introduction
 
-> **Warning**: Berty is still under active development and should not yet be used to exchange sensitive data.
+> **Warning**: TrexChat is still under active development and should not yet be used to exchange sensitive data.
 
-**[Berty](https://berty.tech/)** is a privacy-first messaging application built on top of [the Wesh Protocol](https://berty.tech/docs/protocol/).
+**[TrexChat](https://berty.tech/)** is a privacy-first messaging application built on top of [the Wesh Protocol](https://berty.tech/docs/protocol/).
 
 - *Secure and private* :
     - Messages are end-to-end encrypted by default
@@ -65,7 +65,7 @@ The two main command line utilities are:
 - *Open* :
     - Free forever and open-source
 
-**Berty** is designed to be used as a communication tool when all other traditional messengers fail. Berty Messenger serves the following use cases:
+**TrexChat** is designed to be used as a communication tool when all other traditional messengers fail. TrexChat serves the following use cases:
 
 - When you need to share sensitive information over untrusted networks, for instance while traveling
 - If you want to communicate anonymously
@@ -73,13 +73,13 @@ The two main command line utilities are:
 - In countries that actively monitor and temper with their network, restricting its use and censoring some of its contents
 - In areas with weak or no connection at all
 
-Berty is currently developed by **[Berty Technologies](https://berty.tech/about)**, a French nonprofit organization.
+TrexChat is currently being developed by **[TrikeXpress](https://berty.tech/about)**.
 
 **Note: this project is led by a small team made of humans, who make mistakes. Please do not hesitate to point out bugs or missing features.** _See the [contribute section](#contribute) below._
 
 > We cannot promise we will offer you the best application, but we dedicate ourselves to doing our best to create a great one.
 
-### The philosophy behind Berty
+### The philosophy behind TrexChat
 
 We want to contribute to a world where free and secure communications are common and fear of censorship or surveillance are not.
 
@@ -91,9 +91,9 @@ More info on [berty/community](https://github.com/berty/community).
 
 ## Development Status
 
-The current Berty implementation is using the [Wesh Protocol](https://berty.tech/docs/protocol/), which means the encryption technique is safe, and it works as a peer-to-peer app!
+The current TrexChat implementation is using the [Wesh Protocol](https://berty.tech/docs/protocol/), which means the encryption technique is safe, and it works as a peer-to-peer app!
 
-Alas, Berty has not yet been hardened, so please avoid using it on devices with weak sandboxes, such as unpatchable devices that use old Android versions.
+TrexChat has not yet been hardened, so please avoid using it on devices with weak sandboxes, such as unpatchable devices that use old Android versions.
 
 The current Wesh Protocol is _partially implemented_.
 
@@ -105,7 +105,7 @@ _[Subscribe](https://tech.us20.list-manage.com/subscribe/post?u=5ca3993c7f0b8f64
 
 ## Under the hood
 
-![Berty Messenger High Level Architecture](docs/architecture/Berty_Messenger_Architecture.jpg)
+![TrexChat High Level Architecture](docs/architecture/Berty_Messenger_Architecture.jpg)
 
 ### Wesh Protocol
 
@@ -124,11 +124,11 @@ Get it:
 git clone https://github.com/berty/berty
 ```
 
-### The Berty Messenger
+### TrexChat
 
 [![Code coverage](https://codecov.io/gh/berty/berty/branch/master/graph/badge.svg?token=rBPpNHNNow&flag=js.unittests)](https://codecov.io/gh/berty/berty)
 
-The Berty Messenger, or simply Berty, is a messaging application written in [React Native](https://reactnative.dev/), that uses the Wesh Protocol through [gomobile-ipfs](https://github.com/ipfs-shipyard/gomobile-ipfs), which, in turns, is using [gomobile](https://github.com/golang/mobile).
+TrexChat, or simply Trex, is a messaging application written in [React Native](https://reactnative.dev/), that uses the Wesh Protocol through [gomobile-ipfs](https://github.com/ipfs-shipyard/gomobile-ipfs), which, in turn, is using [gomobile](https://github.com/golang/mobile).
 
 ## Main items in the repo
 
