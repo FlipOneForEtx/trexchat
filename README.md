@@ -1,6 +1,6 @@
-<h1 align="center">
+<!--<h1 align="center">
   <img src="https://berty.tech/img/berty.svg" alt="Berty" title="TrexChat" height="300px" />
-</h1>
+</h1>-->
 
 <h3 align="center"> TrexChat is an open, secure, offline-first, peer-to-peer messaging app </h3>
 
